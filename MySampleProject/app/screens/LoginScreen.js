@@ -41,7 +41,7 @@ const LoginScreen= ({ navigation }) => {
   );
 }
  validate=({navigation},email,password)=>{
-  navigation.navigate('Home');
+  
   const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
    if(email=='' || password=='')
   {
